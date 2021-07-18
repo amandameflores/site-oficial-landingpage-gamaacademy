@@ -17,7 +17,7 @@ function submitEmail(event) {
 
   enableloader();
 
-  saveEmail(email);
+  saveLead(email, name);
 
   setTimeout(function () {
     disableLoader();
@@ -33,8 +33,9 @@ function enableloader() {
   section.appendChild(div);
 }
 
-function saveEmail(email) {
+function saveLead(email, name) {
   localStorage.setItem("email", email);
+  localStorage.setItem("name", name);
 }
 
 function disableLoader() {
