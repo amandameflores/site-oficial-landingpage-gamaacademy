@@ -18,6 +18,9 @@ Site Oficial / Landing page
 
 OBS: Não é preciso ter domínio próprio e recomendamos o Netlify para hospedagem.
 
+## Link do desafio 1:
+https://priceless-goldstine-63d071.netlify.app/
+
 
 ### Screenshot da Landing page
 
